@@ -5,8 +5,8 @@ metadata:
 spec:
   ports:
   - port: 31001
-    nodeport: 31002
-    targetport: nodejs-port
+    nodePort: 31002
+    targetPort: nodejs-port
     protocol: TCP
   selector:
     app: helloworld
